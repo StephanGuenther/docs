@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83" height="92" viewBox="0 0 83 92">
+  <defs>
+    <linearGradient id="icon-pages-a" x1="-2.452%" x2="102.357%" y1="50.021%" y2="50.021%">
+      <stop offset="0%" stop-color="#1C79C4"/>
+      <stop offset="51%" stop-color="#0389FF"/>
+      <stop offset="100%" stop-color="#0DD7FF"/>
+    </linearGradient>
+    <linearGradient id="icon-pages-b" x1="94.913%" x2="8.979%" y1="31.089%" y2="68.796%">
+      <stop offset="0%" stop-color="#1AE5FF"/>
+      <stop offset="100%" stop-color="#1B79C6"/>
+    </linearGradient>
+    <linearGradient id="icon-pages-c" x1="4597%" x2="8999%" y1="7717%" y2="7717%">
+      <stop offset="0%" stop-color="#1C79C4"/>
+      <stop offset="51%" stop-color="#0389FF"/>
+      <stop offset="100%" stop-color="#0DD7FF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" transform="translate(1 -1)">
+    <polygon fill="#FFF" fill-opacity=".8" stroke="url(#icon-pages-a)" points="0 71.309 36.323 50.6 72.646 71.309 38.053 92"/>
+    <polygon fill="url(#icon-pages-b)" points="0 59.227 36.323 38.536 72.646 59.227 38.053 79.936"/>
+    <polygon fill="#FFF" fill-opacity=".8" stroke="url(#icon-pages-c)" points="0 45.427 36.323 24.736 72.646 45.427 38.053 66.136"/>
+    <ellipse cx="45.012" cy="43.512" fill="#0DD7FF" opacity=".7" rx="2.473" ry="2.5" transform="rotate(-83.27 45.012 43.512)"/>
+    <ellipse cx="58.281" cy="22.734" fill="#0DD7FF" opacity=".7" rx="2.473" ry="2.5" transform="rotate(-83.27 58.28 22.734)"/>
+    <ellipse cx="68.542" cy="33.707" fill="#0DD7FF" opacity=".7" rx="2.473" ry="2.5" transform="rotate(-83.27 68.542 33.707)"/>
+    <ellipse cx="77.526" cy="22.119" fill="#0DD7FF" opacity=".7" rx="2.473" ry="2.5" transform="rotate(-83.27 77.526 22.119)"/>
+    <ellipse cx="78.61" cy="3.507" fill="#0DD7FF" opacity=".7" rx="2.473" ry="2.5" transform="rotate(-83.27 78.61 3.507)"/>
+  </g>
+</svg>

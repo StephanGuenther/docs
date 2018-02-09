@@ -52,9 +52,15 @@
       max-width: 305px;
       width: 100%;
 
+      .about-cta-icon {
+        height: 100px;
+        margin-bottom: 20px;
+      }
+
       .about-cta-title {
         color: #007EE0;
         font-weight: 100;
+        text-transform: none;
       }
 
       .about-cta-description {
@@ -69,7 +75,26 @@
   }
 
   .about-cards-section {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 160px;
+    width: 108%;
+    margin-left: -4%;
+
+    .about-card {
+      width: 100%;
+      max-width: 337px;
+      text-align: center;
+
+      .about-card-image {
+        box-shadow: rgba(0, 0, 0, 0.24) 0 2px 14px 0;
+        border-radius: 31.2px;
+      }
+
+      .about-card-icon {
+        margin-top: 40px;
+      }
+    }
   }
 
   .about-casestudies-section {

@@ -17,6 +17,14 @@ components:
   <section class="about-section about-cta-wrapper">
     {% for cta in about.cta  %}
       <a class="about-cta" href="{{cta.url}}">
+        <div class="about-cta-icon">
+          <amp-img
+            noloading
+            height={{cta.img_height}}
+            width={{cta.img_width}}
+            src="{{cta.img}}">
+          </amp-img>
+        </div>
         <h3 class="about-cta-title">{{_(cta.title)}}</h3>
         <h4 class="about-cta-description about-section-description">{{_(cta.description)}}</h4>
         <div class="about-cta-link-wrapper">
@@ -30,7 +38,31 @@ components:
     <div class="h2 about-section-description">{{_(about.showcase.description)}}</div>
     <a class="about-section-link" href="{{about.showcase.url}}">{{_(about.showcase.cta)}}</a>
   </section>
-  <section class="about-cards-section">CARDS</section>
+  <section class="about-cards-section">
+    {% for card in about.cards  %}
+      <div class="about-card">
+        <div class="about-card-image-wrapper">
+          <amp-img
+            class="about-card-image"
+            noloading
+            alt="{{_(card.title)}}"
+            layout=responsive
+            height="{{card.img_height}}"
+            width="{{card.img_width}}"
+            srcset="{{card.img}} 1x, {{card.img2x}} 2x"
+            src="{{card.img}}">
+          </amp-img>
+        </div>
+        <amp-img
+          class="about-card-icon"
+          noloading
+          height={{card.icon_height}}
+          width={{card.icon_width}}
+          src="{{card.icon}}">
+        </amp-img>
+      </div>
+    {% endfor %}
+  </section>
   <section class="about-casestudies-section about-section">
     <div class="h1 about-section-title">{{_(about.casestudies.title)}}</div>
     <div class="h2 about-section-description">{{_(about.casestudies.description)}}</div>

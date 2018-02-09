@@ -5,18 +5,73 @@ hero:
 cta:
   - title@: What is AMP?
     description@: Learn about its benefits and core
+    img: /static/img/about/main/icon-code.svg
+    img_width: 100
+    img_height: 98
     cta@: Learn More
     url: /learn/overview/
 
   - title@: How AMP works
     description@: Lorem ipsum dolor sit amet, consectetur
+    img: /static/img/about/main/icon-gears.svg
+    img_width: 115
+    img_height: 88
     cta@: Learn More
     url: /learn/about-how/
 
   - title@: AMP formats and use cases
     description@: Improving URLs for AMP pages
+    img: /static/img/about/main/icon-pages.svg
+    img_width: 83
+    img_height: 92
     cta@: Learn More
     url: /learn/amp-design-principles/
+
+cards:
+  - img: /static/img/about/main/about-01.jpg
+    img_width: 337
+    img_height: 562
+    img2x: /static/img/about/main/about-01@2x.jpg
+    img2x_width: 674
+    img2x_height: 1124
+    icon: /static/img/about/main/myntra-logo.svg
+    icon_width: 58
+    icon_height: 39
+    title@: Myntra
+
+  - img: /static/img/about/main/about-02.jpg
+    img_width: 337
+    img_height: 562
+    img2x: /static/img/about/main/about-02@2x.jpg
+    img2x_width: 674
+    img2x_height: 1124
+    icon: /static/img/about/main/vox-logo.svg
+    icon_width: 73
+    icon_height: 35
+    title@: Vox
+
+  - img: /static/img/about/main/about-03.jpg
+    img_width: 337
+    img_height: 562
+    img2x: /static/img/about/main/about-03@2x.jpg
+    img2x_width: 674
+    img2x_height: 1124
+    icon: /static/img/about/main/spiegel-logo.svg
+    icon_width: 188
+    icon_height: 20
+    title@: Spiegel Daily
+
+  - img: /static/img/about/main/about-04.jpg
+    img_width: 337
+    img_height: 562
+    img2x: /static/img/about/main/about-04@2x.jpg
+    img2x_width: 674
+    img2x_height: 1124
+    icon: /static/img/about/main/tasty-logo.svg
+    icon_width: 67
+    icon_height: 34
+    title@: Tasty
+
 
 showcase:
   title@: Showcase

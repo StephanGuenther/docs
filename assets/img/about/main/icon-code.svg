@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="98" viewBox="0 0 100 98">
+  <defs>
+    <linearGradient id="icon-code-a" x1="-9.403%" x2="109.403%" y1="94.607%" y2="5.393%">
+      <stop offset="0%" stop-color="#1C79C4"/>
+      <stop offset="51%" stop-color="#0389FF"/>
+      <stop offset="100%" stop-color="#0DD4FF"/>
+    </linearGradient>
+    <linearGradient id="icon-code-b" x1="1337%" x2="8501%" y1="5355.012%" y2="1313.205%">
+      <stop offset="0%" stop-color="#1C79C4"/>
+      <stop offset="51%" stop-color="#0389FF"/>
+      <stop offset="100%" stop-color="#0DD4FF"/>
+    </linearGradient>
+    <linearGradient id="icon-code-c" x1="4154%" x2="5985%" y1="300.457%" y2="231.919%">
+      <stop offset="0%" stop-color="#1C79C4"/>
+      <stop offset="51%" stop-color="#0389FF"/>
+      <stop offset="100%" stop-color="#0DD4FF"/>
+    </linearGradient>
+    <linearGradient id="icon-code-d" x1="3178%" x2="4537%" y1="4852.013%" y2="3953.576%">
+      <stop offset="0%" stop-color="#1C79C4"/>
+      <stop offset="51%" stop-color="#0389FF"/>
+      <stop offset="100%" stop-color="#0DD4FF"/>
+    </linearGradient>
+    <linearGradient id="icon-code-e" x1="5445%" x2="6878%" y1="3077.152%" y2="2319.967%">
+      <stop offset="0%" stop-color="#1C79C4"/>
+      <stop offset="51%" stop-color="#0389FF"/>
+      <stop offset="100%" stop-color="#0DD4FF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <polygon fill="#FFF" fill-opacity=".7" fill-rule="nonzero" stroke="url(#icon-code-a)" stroke-width=".98" points="59.608 55.339 .49 87.486 .49 40.956 59.608 8.818"/>
+    <polygon fill="#FFF" fill-opacity=".7" fill-rule="nonzero" stroke="url(#icon-code-b)" stroke-width=".98" points="77.784 64.716 18.667 96.853 18.667 50.332 77.784 18.195"/>
+    <path stroke="url(#icon-code-c)" stroke-width=".98" d="M52.5490196,42.3664646 L46.8529412,71.789798"/>
+    <polyline stroke="url(#icon-code-d)" stroke-width=".98" points="40.206 54.232 29.765 68.939 42.108 69.409"/>
+    <polyline stroke="url(#icon-code-e)" stroke-width=".98" points="57.294 44.738 68.686 45.218 57.294 60.395"/>
+    <ellipse cx="85.196" cy="21.056" fill="#0DD4FF" fill-rule="nonzero" opacity=".7" rx="1.127" ry="1.127"/>
+    <ellipse cx="90.088" cy="10.925" fill="#0DD4FF" fill-rule="nonzero" opacity=".7" rx="1.127" ry="1.127"/>
+    <ellipse cx="95.324" cy="15.353" fill="#0DD4FF" fill-rule="nonzero" opacity=".7" rx="1.127" ry="1.127"/>
+    <ellipse cx="98.765" cy="9.622" fill="#0DD4FF" fill-rule="nonzero" opacity=".7" rx="1.127" ry="1.127"/>
+    <ellipse cx="98.265" cy="1.127" fill="#0DD4FF" fill-rule="nonzero" opacity=".7" rx="1.127" ry="1.127"/>
+  </g>
+</svg>
